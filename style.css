@@ -1,0 +1,98 @@
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.date {
+  white-space: nowrap;
+  color: gray;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.company {
+  font-style: italic;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.school {
+  font-style: italic;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: rgb(34, 34, 163);
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.0rem;
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+li {
+  font-family: Arial, sans-serif;
+  margin-bottom: 0.3rem;
+}
+
+aside {
+  padding-left: 1rem;
+}
+main {
+  padding-right: 1rem;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+aside {
+    background-color: #284167;
+    color: #ffffff;
+    /*padding-right: 1.0rem;*/
+}
+aside h2 {
+    background-color: rgb(19, 25, 87);
+    margin: 0.5rem 0.0rem 0.0rem -1.0rem;
+    padding: 0.5rem 1.0rem;
+    color: white;
+}
+
+.profile-image {
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+}

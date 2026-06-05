@@ -1,0 +1,8 @@
+.cv (hela layouten)
+│
+├── aside (vänster kolumn)
+│
+└── main (höger kolumn)
+     ├── profil
+     ├── jobs
+     ├── education
