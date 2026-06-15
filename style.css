@@ -28,10 +28,19 @@ body {
   justify-content: space-between;
   align-items: baseline;
 }
+.certification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
 .school {
   font-style: italic;
 }
+.certificate {
+  font-style: italic;
+}
+
 
 h1 {
   font-family: Arial, sans-serif;
