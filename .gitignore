@@ -1,0 +1,10 @@
+# OS-specifika filer (Väldigt vanligt att dessa smyger sig in annars)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Redigerarinställningar
+.vscode/
+.idea/
+*.suo
+*.user
